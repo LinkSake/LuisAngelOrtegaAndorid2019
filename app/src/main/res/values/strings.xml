@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">LuisAngelOrtegaAndroid2019</string>
+    <string name="header">Android 2019</string>
+    <string name="hello_world">HELLO WORLD </string>
+    <string name="time_figther">TIMEFIGHTER</string>
+    <string name="footer">Luis Angel Ortega / @LinkSake</string>
 </resources>
