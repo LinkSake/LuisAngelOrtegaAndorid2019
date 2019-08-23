@@ -13,8 +13,17 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btnHelloWorld.setOnClickListener {
-            val intHelloWorld = Intent(this, HelloWorld::class.java)
+            //val intHelloWorld = Intent(this, HelloWorld::class.java)
             startActivity(Intent(this, HelloWorld::class.java))
+        }
+
+        btnTimeFighter.setOnClickListener {
+            //val intTimeFighter = Intent(this, TimeFighter::class.java)
+            startActivity(Intent(this, TimeFighter::class.java))
+        }
+
+        btnFtoC.setOnClickListener {
+            startActivity(Intent(this,FtoC::class.java))
         }
 
     }

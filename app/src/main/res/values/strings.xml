@@ -1,7 +1,14 @@
 <resources>
     <string name="app_name">LuisAngelOrtegaAndroid2019</string>
-    <string name="header">Android 2019</string>
-    <string name="hello_world">HELLO WORLD </string>
-    <string name="time_figther">TIMEFIGHTER</string>
-    <string name="footer">Luis Angel Ortega / @LinkSake</string>
+    <string name="your_score">Your Score: %s</string>
+    <string name="time_left">Time Left: %s</string>
+    <string name="tap_me">TAP ME</string>
+    <string name="android_2019">Android 2019</string>
+    <string name="time_figther">Time Fighter</string>
+    <string name="hello_world">Hello World</string>
+    <string name="game_over">Times up! Your score was: %s</string>
+    <string name="fahrenheit">Fahrenheit...</string>
+    <string name="convert">Convert to ℃</string>
+    <string name="celsius">The temperature is %s ℃</string>
+    <string name="ftoc">℉ to ℃</string>
 </resources>
