@@ -66,5 +66,14 @@
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginTop="8dp"
             app:layout_constraintTop_toBottomOf="@+id/btnTimeFighter" app:layout_constraintHorizontal_bias="0.497"
             android:backgroundTint="@color/FtoC"/>
+    <Button
+            android:text="@string/dialog_button"
+            android:layout_width="217dp"
+            android:layout_height="51dp"
+            android:id="@+id/btnDialog" android:layout_marginTop="12dp"
+            app:layout_constraintTop_toBottomOf="@+id/btnFtoC" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.498"
+            android:backgroundTint="@color/dialog_color"/>
 
 </android.support.constraint.ConstraintLayout>

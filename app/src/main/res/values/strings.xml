@@ -11,4 +11,11 @@
     <string name="convert">Convert to ℃</string>
     <string name="celsius">The temperature is %s ℃</string>
     <string name="ftoc">℉ to ℃</string>
+    <string name="dialog_button">Dialog</string>
+    <string name="show_dialog">Mostrar Dialogo</string>
+    <string name="hint_nombre">Nombre...</string>
+    <string name="hint_password">Password...</string>
+    <string name="hint_email">Email...</string>
+    <string name="login">Login</string>
+    <string name="cancelar">Cancelar</string>
 </resources>

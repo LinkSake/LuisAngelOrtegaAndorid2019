@@ -26,5 +26,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this,FtoC::class.java))
         }
 
+        btnDialog.setOnClickListener {
+            startActivity(Intent(this,DialogActivity::class.java))
+        }
     }
 }
