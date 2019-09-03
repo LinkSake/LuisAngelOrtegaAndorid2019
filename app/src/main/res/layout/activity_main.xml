@@ -31,7 +31,7 @@
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="16dp"
             android:fontFamily="sans-serif-thin"
-            android:text="Luis Angel Ortega / @LinkSake"
+            android:text="@string/author"
             android:textStyle="italic"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
