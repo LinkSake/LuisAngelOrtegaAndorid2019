@@ -18,5 +18,12 @@
     <string name="hint_email">Email...</string>
     <string name="login">Login</string>
     <string name="cancelar">Cancelar</string>
+    <string name="dialog_mgmt">Dialog Management</string>
+    <string name="playground">Playground</string>
     <string name="author">Luis Angel Ortega / @LinkSake</string>
+    <string name="tap">Tap me</string>
+    <string name="show_img">Show Image</string>
+    <string name="quit">Quit</string>
+    <string name="show_toast">Show toast</string>
+    <string name="loop">loop</string>
 </resources>

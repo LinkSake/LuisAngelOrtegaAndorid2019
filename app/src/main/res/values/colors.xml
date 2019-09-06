@@ -6,4 +6,7 @@
     <color name="FtoC">#18E4E4</color>
     <color name="time_attack">#AF0342</color>
     <color name="dialog_color">#0B94CA</color>
+    <color name="dialog_management">#685691</color>
+    <color name="playgound">#EC9797</color>
+    <color name="tap_me">#DDDC8B</color>
 </resources>

@@ -3,6 +3,7 @@ package android.linksake.luisangel
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
+import android.view.animation.AnimationUtils
 import android.widget.AutoCompleteTextView
 import android.widget.TextView
 import android.widget.Toast
@@ -29,6 +30,8 @@ class TimeFighter : AppCompatActivity() {
         scoreTextView.text = getString(R.string.your_score, score.toString())
 
         btnTapMe.setOnClickListener {
+            val bounceAnimation = AnimationUtils.loadAnimation(this, R.anim.bounce)
+            it.startAnimation(bounceAnimation)
             incrementScore()
         }
 
@@ -38,6 +41,8 @@ class TimeFighter : AppCompatActivity() {
         if(gameStarted === false) {
             startGame()
         }
+        val fadeAnimation = AnimationUtils.loadAnimation(this, R.anim.fade_in)
+        scoreTextView.startAnimation(fadeAnimation)
         score++
         val newScore = getString(R.string.your_score, score.toString())
         scoreTextView.text = newScore

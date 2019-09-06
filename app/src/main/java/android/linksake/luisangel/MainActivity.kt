@@ -3,6 +3,7 @@ package android.linksake.luisangel
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.view.animation.AnimationUtils
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -28,6 +29,15 @@ class MainActivity : AppCompatActivity() {
 
         btnDialog.setOnClickListener {
             startActivity(Intent(this,DialogActivity::class.java))
+        }
+
+        btnTap.setOnClickListener { view ->
+            val bounceAnimation = AnimationUtils.loadAnimation(this, R.anim.bounce)
+            view.startAnimation(bounceAnimation)
+        }
+
+        btnPlaygorund.setOnClickListener {
+            startActivity(Intent(this, PlaygroundActivity::class.java))
         }
     }
 }
