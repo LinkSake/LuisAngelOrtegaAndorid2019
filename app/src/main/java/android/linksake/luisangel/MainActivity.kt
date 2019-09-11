@@ -31,13 +31,18 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this,DialogActivity::class.java))
         }
 
-        btnTap.setOnClickListener { view ->
-            val bounceAnimation = AnimationUtils.loadAnimation(this, R.anim.bounce)
-            view.startAnimation(bounceAnimation)
+        btnDialogMngt.setOnClickListener {
+            startActivity(Intent(this,DialogManagementActivity::class.java))
         }
 
         btnPlaygorund.setOnClickListener {
             startActivity(Intent(this, PlaygroundActivity::class.java))
         }
+
+        btnTap.setOnClickListener { view ->
+            val bounceAnimation = AnimationUtils.loadAnimation(this, R.anim.bounce)
+            view.startAnimation(bounceAnimation)
+        }
+
     }
 }

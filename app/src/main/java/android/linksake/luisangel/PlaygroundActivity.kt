@@ -2,6 +2,7 @@ package android.linksake.luisangel
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
 import android.util.Log
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_playground.*
@@ -13,11 +14,29 @@ class PlaygroundActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_playground)
 
+        btnShowToast.setOnClickListener {
+            play()
+        }
 
         btnLoop.setOnClickListener {
             loop()
         }
 
+    }
+
+    fun play(){
+
+        val date = Pair(5, 22)
+        val (day, month) = date
+        val dayOfMonth = Triple(29, 8, 2019)
+
+        Toast.makeText(this, "${date}", Toast.LENGTH_LONG).show()
+        Handler().postDelayed({
+            Toast.makeText(this, "month = ${month} day = ${day} ", Toast.LENGTH_SHORT).show()
+        }, 2000)
+        Handler().postDelayed({
+            Toast.makeText(this, "${dayOfMonth}", Toast.LENGTH_SHORT).show()
+        }, 4000)
     }
 
     fun loop(){
@@ -32,4 +51,6 @@ class PlaygroundActivity : AppCompatActivity() {
         }
 
     }
+
+
 }
