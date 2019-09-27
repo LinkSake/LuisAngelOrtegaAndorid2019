@@ -12,12 +12,12 @@
     <string name="celsius">The temperature is %s ℃</string>
     <string name="ftoc">℉ to ℃</string>
     <string name="dialog_button">Dialog</string>
-    <string name="show_dialog">Mostrar Dialogo</string>
-    <string name="hint_nombre">Nombre...</string>
+    <string name="show_dialog">Show Dialog</string>
+    <string name="hint_nombre">Name...</string>
     <string name="hint_password">Password...</string>
     <string name="hint_email">Email...</string>
     <string name="login">Login</string>
-    <string name="cancelar">Cancelar</string>
+    <string name="cancelar">Cancel</string>
     <string name="dialog_mgmt">Dialog Management</string>
     <string name="playground">Playground</string>
     <string name="author">Luis Angel Ortega / @LinkSake</string>
@@ -26,5 +26,16 @@
     <string name="quit">Quit</string>
     <string name="show_toast">Show toast</string>
     <string name="loop">loop</string>
-    <string name="confimation">¿Seguro que deseas salir?</string>
+    <string name="confimation">Are you sure?</string>
+    <string name="imc">IMC</string>
+    <string name="name">Name:</string>
+    <string name="fName">Father\'s Name:</string>
+    <string name="mName">Mother\'s Name:</string>
+    <string name="height">Height:</string>
+    <string name="weight">Weight:</string>
+    <string name="scan">Scan</string>
+    <string name="picture">Picture:</string>
+    <string name="status">Status:</string>
+    <string name="IMCstatus">Your IMC is </string>
+    <string name="allRequired">You need to fill all the fields</string>
 </resources>

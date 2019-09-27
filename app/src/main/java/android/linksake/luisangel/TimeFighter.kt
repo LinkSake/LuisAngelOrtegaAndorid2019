@@ -1,5 +1,6 @@
 package android.linksake.luisangel
 
+import android.media.MediaPlayer
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
@@ -17,6 +18,9 @@ class TimeFighter : AppCompatActivity() {
 
     val initialCountDown: Long = 6000
     val countDownInterval: Long = 1000
+
+    var startSound: MediaPlayer? = null
+    var endSound: MediaPlayer? = null
 
     lateinit var countDownTimer: CountDownTimer
 
@@ -69,12 +73,19 @@ class TimeFighter : AppCompatActivity() {
     private fun startGame() {
         countDownTimer.start()
         gameStarted = true
+        startSound = MediaPlayer.create(this, R.raw.game)
+        startSound?.start()
+
     }
 
     private fun endGame() {
         gameStarted = false
         Toast.makeText(this, getString(R.string.game_over, score.toString()), Toast.LENGTH_LONG).show()
         resetGame()
+        startSound?.stop()
+        startSound?.release()
+        endSound = MediaPlayer.create(this, R.raw.endgame)
+        endSound?.start()
     }
 
 }

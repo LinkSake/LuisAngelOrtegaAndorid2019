@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="android.linksake.luisangel">
+        package="android.linksake.luisangel">
+
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
             android:allowBackup="true"
@@ -8,26 +10,22 @@
             android:label="@string/app_name"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".PlaygroundActivity">
-        </activity>
-        <activity android:name=".DialogManagementActivity">
-        </activity>
-        <activity android:name=".MainActivity">
-        </activity>
-        <activity android:name=".DialogActivity">
-        </activity>
-        <activity android:name=".FtoC">
-        </activity>
-        <activity android:name=".TimeFighter">
-        </activity>
-        <activity android:name=".HelloWorld"/>
+        <activity android:name=".ScanActivity"></activity>
+        <activity android:name=".imcActivity" />
+        <activity android:name=".PlaygroundActivity" />
+        <activity android:name=".DialogManagementActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".DialogActivity" />
+        <activity android:name=".FtoC" />
+        <activity android:name=".TimeFighter" />
+        <activity android:name=".HelloWorld" />
         <activity
                 android:name=".SplashActivity"
                 android:theme="@style/AppTheme.SplashScreen">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>

@@ -44,5 +44,9 @@ class MainActivity : AppCompatActivity() {
             view.startAnimation(bounceAnimation)
         }
 
+        btnIMC.setOnClickListener {
+            startActivity(Intent(this, imcActivity::class.java))
+        }
+
     }
 }

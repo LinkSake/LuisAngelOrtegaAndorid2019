@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LuisAngelOrtegaAndroid2019</string>
+    <string name="your_score">Tu Puntuación: %s</string>
+    <string name="time_left">Tiempo Restante: %s</string>
+    <string name="tap_me">PUSHALE</string>
+    <string name="android_2019">Android 2019</string>
+    <string name="time_figther">Ataque de tiempo</string>
+    <string name="hello_world">Quibole Mundo</string>
+    <string name="game_over">Chale! Tu puntuación fue: %s</string>
+    <string name="fahrenheit">Fahrenheit...</string>
+    <string name="convert">Cambiar a ℃</string>
+    <string name="celsius">La temperatura es %s ℃</string>
+    <string name="ftoc">℉ a ℃</string>
+    <string name="dialog_button">Dialogos</string>
+    <string name="show_dialog">Mostrar Dialogo</string>
+    <string name="hint_nombre">Nombre...</string>
+    <string name="hint_password">Contraseña...</string>
+    <string name="hint_email">Correo electronico...</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="dialog_mgmt">Manejo de dialogos</string>
+    <string name="playground">Zona de juego</string>
+    <string name="author">Luis Angel Ortega / @LinkSake</string>
+    <string name="tap">Pushame</string>
+    <string name="show_img">Muestra la imagen</string>
+    <string name="quit">Salir</string>
+    <string name="show_toast">Muestra la tostada</string>
+    <string name="loop">Fruti Lupis</string>
+    <string name="confimation">¿Seguro que deseas salir?</string>
+</resources>
