@@ -10,7 +10,7 @@
             android:id="@+id/etName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="12dp"
             android:layout_marginEnd="56dp"
             android:ems="10"
             android:inputType="textPersonName"
@@ -120,27 +120,29 @@
             app:layout_constraintTop_toBottomOf="@+id/etHeight" />
 
     <Button
-            android:id="@+id/btnScan"
+            android:id="@+id/btnScanQR"
             android:layout_width="344dp"
             android:layout_height="39dp"
             android:layout_marginBottom="32dp"
             android:text="@string/scan"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.953" />
 
     <Button
             android:id="@+id/btnGetIMC"
             android:layout_width="344dp"
             android:layout_height="39dp"
-            android:layout_marginTop="604dp"
             android:text="@string/imc"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintHorizontal_bias="0.492"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="0.854" />
 
     <TextView
             android:id="@+id/tvPic"
@@ -168,23 +170,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="28dp"
-            android:layout_marginTop="528dp"
             android:text="@string/status"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.047"
+            app:layout_constraintHorizontal_bias="0.208"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.016" />
+            app:layout_constraintVertical_bias="0.709" />
 
     <TextView
             android:id="@+id/tvIMCstatus"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="266dp"
+            android:layout_height="51dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.745" />
+            app:layout_constraintVertical_bias="0.77" />
 
 </android.support.constraint.ConstraintLayout>
