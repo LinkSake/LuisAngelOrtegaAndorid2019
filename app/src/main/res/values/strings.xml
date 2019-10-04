@@ -39,4 +39,5 @@
     <string name="IMCstatus">Your IMC is </string>
     <string name="allRequired">You need to fill all the fields</string>
     <string name="result_not_found">Result not found</string>
+    <string name="Janken">janken</string>
 </resources>

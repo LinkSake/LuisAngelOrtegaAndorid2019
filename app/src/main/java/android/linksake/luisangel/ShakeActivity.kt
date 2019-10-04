@@ -5,32 +5,33 @@ import android.hardware.Sensor
 import android.hardware.SensorManager
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import android.widget.Toast
+import kotlinx.android.synthetic.main.activity_shake.*
+import java.util.*
 
-class HelloWorld : AppCompatActivity() {
+class ShakeActivity : AppCompatActivity() {
 
     private var mSensorManager: SensorManager? = null
     private var mSensorListener: ShakeEventListener? = null
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
-
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_shake)
 
         mSensorManager = getSystemService(Context.SENSOR_SERVICE) as SensorManager?
         mSensorListener = ShakeEventListener()
 
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_hello_world)
-        Log.d("ALL STAR", "hey now!")
-
-
         this.mSensorListener!!.setOnShakeListener {
-            Toast.makeText(
-                this,
-                "Shake!!!",
-                Toast.LENGTH_SHORT
-            ).show()
+            play()
+        }
+
+    }
+
+    fun play() {
+        val random = Random().nextInt(3)
+        when (random) {
+            0 -> ivRPS.setImageDrawable(getResources().getDrawable(R.drawable.rock))
+            1 -> ivRPS.setImageDrawable(getResources().getDrawable(R.drawable.paper))
+            2 -> ivRPS.setImageDrawable(getResources().getDrawable(R.drawable.scissors))
         }
     }
 

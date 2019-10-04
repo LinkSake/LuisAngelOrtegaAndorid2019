@@ -48,5 +48,9 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, imcActivity::class.java))
         }
 
+        btnRPS.setOnClickListener{
+            startActivity(Intent(this, ShakeActivity::class.java))
+        }
+
     }
 }
