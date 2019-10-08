@@ -40,4 +40,7 @@
     <string name="allRequired">You need to fill all the fields</string>
     <string name="result_not_found">Result not found</string>
     <string name="Janken">janken</string>
+    <string name="hint_lastname">Last Name...</string>
+    <string name="hint_time">Time..</string>
+    <string name="shared_pref">Shared Preferences</string>
 </resources>

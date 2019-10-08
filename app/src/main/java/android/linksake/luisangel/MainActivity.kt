@@ -52,5 +52,9 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, ShakeActivity::class.java))
         }
 
+        btnSP.setOnClickListener {
+            startActivity(Intent(this, SharedPreferences::class.java))
+        }
+
     }
 }
