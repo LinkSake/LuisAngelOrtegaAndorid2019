@@ -1,7 +1,7 @@
 package android.linksake.luisangel
 
 import android.media.MediaPlayer
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.view.animation.AnimationUtils
